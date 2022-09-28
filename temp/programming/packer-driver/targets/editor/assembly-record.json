@@ -8029,24 +8029,104 @@
           "messages": []
         }
       },
-      "timestamp": 1664364496003
+      "timestamp": 1664381650400
     },
-    "48925ed89f58b0eff72f0ddf69b47c4b5e8f623a": {
+    "1ffe0bf7d9f5f289b23ce9a872613ce9a0a3aeba": {
       "imports": {
-        "__unresolved_0": {
+        "cc": {
           "resolved": {
             "type": "chunk",
-            "id": "8f5e956c35b922a59f82e20a8ce8f12a3c5c156e"
+            "id": "ca4374a3008ca85000d465787e739a302e4e4ac6"
           },
           "messages": []
         }
       },
-      "timestamp": 1664364496600
+      "timestamp": 1664381650533
+    },
+    "78f174d7642671c1c8bd39b6e2f6c87a1fda346f": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "ca4374a3008ca85000d465787e739a302e4e4ac6"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1664381719122
+    },
+    "8d19cb6c333549c97f99a079b4e10bc98db769f0": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "ca4374a3008ca85000d465787e739a302e4e4ac6"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1664381727909
+    },
+    "177d4b67e0979dfa76a4c65756401e528e0d788e": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "ca4374a3008ca85000d465787e739a302e4e4ac6"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1664383415975
+    },
+    "183ec7f24edfd9bf4c3a515cf482164adb416cb6": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "ca4374a3008ca85000d465787e739a302e4e4ac6"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1664386298464
+    },
+    "6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "177d4b67e0979dfa76a4c65756401e528e0d788e"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "effcd00459e4d20760e9ecb05a8fd71cc741eb42"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1664387942053
+    },
+    "effcd00459e4d20760e9ecb05a8fd71cc741eb42": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "ca4374a3008ca85000d465787e739a302e4e4ac6"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1664387942329
     }
   },
   "entries": {
     "cce:/internal/x/cc": "ca4374a3008ca85000d465787e739a302e4e4ac6",
-    "cce:/internal/x/prerequisite-imports": "48925ed89f58b0eff72f0ddf69b47c4b5e8f623a",
-    "file:///C:/Users/admin/NewProject_18/assets/Scripts/test.ts": "8f5e956c35b922a59f82e20a8ce8f12a3c5c156e"
+    "cce:/internal/x/prerequisite-imports": "6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3",
+    "file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts": "177d4b67e0979dfa76a4c65756401e528e0d788e",
+    "file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts": "effcd00459e4d20760e9ecb05a8fd71cc741eb42"
   }
 }

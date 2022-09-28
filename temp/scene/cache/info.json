@@ -1,11 +1,11 @@
 {
     "systemInfo": {
         "arch": "x64",
-        "cpu": "Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz",
-        "version": "Windows 10 Pro"
+        "cpu": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "version": "Windows 10 Home China"
     },
     "sceneListMap": {
-        "f5201207-7c5d-46b5-ba3a-809b8d374a62": "C:\\Users\\admin\\NewProject_18\\assets\\GameScene.scene"
+        "f5201207-7c5d-46b5-ba3a-809b8d374a62": "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\GameScene.scene"
     },
-    "deviceMd5": "e92653611db9c7318ec9f04a0b795abe"
+    "deviceMd5": "bbea33daa95e285bd6174c685086d0ec"
 }

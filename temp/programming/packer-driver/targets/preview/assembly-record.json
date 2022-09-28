@@ -6268,24 +6268,104 @@
           "messages": []
         }
       },
-      "timestamp": 1664364496209
+      "timestamp": 1664381650657
     },
-    "6b8f85b7feaee65395ce6b5e8080983e7f56d534": {
+    "1ffe0bf7d9f5f289b23ce9a872613ce9a0a3aeba": {
       "imports": {
-        "__unresolved_0": {
+        "cc": {
           "resolved": {
             "type": "chunk",
-            "id": "8f5e956c35b922a59f82e20a8ce8f12a3c5c156e"
+            "id": "d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53"
           },
           "messages": []
         }
       },
-      "timestamp": 1664364496697
+      "timestamp": 1664381650794
+    },
+    "78f174d7642671c1c8bd39b6e2f6c87a1fda346f": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1664381719259
+    },
+    "8d19cb6c333549c97f99a079b4e10bc98db769f0": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1664381728109
+    },
+    "4a5e701aca9285d41bc51393a46cd21618d7f220": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1664383416431
+    },
+    "f748dbae504d382d7df5d2ab550c994ad8897be6": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1664386299653
+    },
+    "6cea9118b313aa76b67e6fd6577a4a82aae4c9d4": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "4a5e701aca9285d41bc51393a46cd21618d7f220"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "54868b84f88a5082b1d037c0093dab1797c20382"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1664387942786
+    },
+    "54868b84f88a5082b1d037c0093dab1797c20382": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1664387943201
     }
   },
   "entries": {
     "cce:/internal/x/cc": "d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53",
-    "cce:/internal/x/prerequisite-imports": "6b8f85b7feaee65395ce6b5e8080983e7f56d534",
-    "file:///C:/Users/admin/NewProject_18/assets/Scripts/test.ts": "8f5e956c35b922a59f82e20a8ce8f12a3c5c156e"
+    "cce:/internal/x/prerequisite-imports": "6cea9118b313aa76b67e6fd6577a4a82aae4c9d4",
+    "file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts": "4a5e701aca9285d41bc51393a46cd21618d7f220",
+    "file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts": "54868b84f88a5082b1d037c0093dab1797c20382"
   }
 }

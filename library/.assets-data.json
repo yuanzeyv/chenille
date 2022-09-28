@@ -160,7 +160,7 @@
     "value": {}
   },
   "b6961599-b5e2-4db7-872e-f9f172e7d8d9": {
-    "url": "db://assets/Scripts/test.ts",
+    "url": "db://assets/Scripts/Prefab/BoxSpritePrefab.ts",
     "value": {}
   },
   "dd8760e2-341b-441f-9366-aed5359c1941": {
@@ -405,14 +405,7 @@
   },
   "d6b0969c-1e99-4c0b-a0df-fa7e91df4102": {
     "url": "db://assets/scene.scene",
-    "value": {
-      "depends": [
-        "f46876e4-e81b-4931-b493-6d367be385e7",
-        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
-        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
-        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
-      ]
-    }
+    "value": {}
   },
   "39e6d0af-d41c-402d-9f72-789c17e89a2d": {
     "url": "db://assets/Scripts/External/immer/dist",
@@ -700,7 +693,13 @@
       "depends": [
         "f5201207-7c5d-46b5-ba3a-809b8d374a62",
         "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
-        "8fa4efaa-6bf2-4f80-b465-9d3a4fe4d9b4",
+        "0b2bcf06-2c66-4501-809f-ff89b2a0130b@f9941",
+        "895facd6-32d6-4091-8a06-dbae80ad3b12@f9941",
+        "a488a9d4-0e8c-4732-9d93-d6a0f7490f87@f9941",
+        "a9188384-ff8d-4a35-8a24-3715ea28d994@f9941",
+        "0b2bcf06-2c66-4501-809f-ff89b2a0130b@f9941",
+        "d29cfa10-6f43-4c62-97a0-2d0bdd4b0b4d@f9941",
+        "44bd2cbf-bb70-4a4e-8b18-df34ffd35633@f9941",
         "f5201207-7c5d-46b5-ba3a-809b8d374a62",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
@@ -745,17 +744,17 @@
     "value": {}
   },
   "fbd168fc-2b81-4090-a2bc-c4394139239d": {
-    "url": "db://assets/Resource",
+    "url": "db://assets/resources",
     "value": {}
   },
   "895facd6-32d6-4091-8a06-dbae80ad3b12": {
-    "url": "db://assets/Resource/BoxOpen_1.png",
+    "url": "db://assets/resources/BoxOpen_1.png",
     "value": {
       "depends": []
     }
   },
   "895facd6-32d6-4091-8a06-dbae80ad3b12@6c48a": {
-    "url": "db://assets/Resource/BoxOpen_1.png@6c48a",
+    "url": "db://assets/resources/BoxOpen_1.png@6c48a",
     "value": {
       "depends": [
         "895facd6-32d6-4091-8a06-dbae80ad3b12"
@@ -763,13 +762,13 @@
     }
   },
   "d29cfa10-6f43-4c62-97a0-2d0bdd4b0b4d": {
-    "url": "db://assets/Resource/BoxClose_2.png",
+    "url": "db://assets/resources/BoxClose_2.png",
     "value": {
       "depends": []
     }
   },
   "d29cfa10-6f43-4c62-97a0-2d0bdd4b0b4d@6c48a": {
-    "url": "db://assets/Resource/BoxClose_2.png@6c48a",
+    "url": "db://assets/resources/BoxClose_2.png@6c48a",
     "value": {
       "depends": [
         "d29cfa10-6f43-4c62-97a0-2d0bdd4b0b4d"
@@ -777,13 +776,13 @@
     }
   },
   "a488a9d4-0e8c-4732-9d93-d6a0f7490f87": {
-    "url": "db://assets/Resource/BoxOpen_2.png",
+    "url": "db://assets/resources/BoxOpen_2.png",
     "value": {
       "depends": []
     }
   },
   "a488a9d4-0e8c-4732-9d93-d6a0f7490f87@6c48a": {
-    "url": "db://assets/Resource/BoxOpen_2.png@6c48a",
+    "url": "db://assets/resources/BoxOpen_2.png@6c48a",
     "value": {
       "depends": [
         "a488a9d4-0e8c-4732-9d93-d6a0f7490f87"
@@ -791,13 +790,13 @@
     }
   },
   "44bd2cbf-bb70-4a4e-8b18-df34ffd35633": {
-    "url": "db://assets/Resource/BoxClose_3.png",
+    "url": "db://assets/resources/BoxClose_3.png",
     "value": {
       "depends": []
     }
   },
   "44bd2cbf-bb70-4a4e-8b18-df34ffd35633@6c48a": {
-    "url": "db://assets/Resource/BoxClose_3.png@6c48a",
+    "url": "db://assets/resources/BoxClose_3.png@6c48a",
     "value": {
       "depends": [
         "44bd2cbf-bb70-4a4e-8b18-df34ffd35633"
@@ -805,13 +804,13 @@
     }
   },
   "a9188384-ff8d-4a35-8a24-3715ea28d994": {
-    "url": "db://assets/Resource/BoxOpen_3.png",
+    "url": "db://assets/resources/BoxOpen_3.png",
     "value": {
       "depends": []
     }
   },
   "a9188384-ff8d-4a35-8a24-3715ea28d994@6c48a": {
-    "url": "db://assets/Resource/BoxOpen_3.png@6c48a",
+    "url": "db://assets/resources/BoxOpen_3.png@6c48a",
     "value": {
       "depends": [
         "a9188384-ff8d-4a35-8a24-3715ea28d994"
@@ -819,17 +818,73 @@
     }
   },
   "0b2bcf06-2c66-4501-809f-ff89b2a0130b": {
-    "url": "db://assets/Resource/BoxClose_1.png",
+    "url": "db://assets/resources/BoxClose_1.png",
     "value": {
       "depends": []
     }
   },
   "0b2bcf06-2c66-4501-809f-ff89b2a0130b@6c48a": {
-    "url": "db://assets/Resource/BoxClose_1.png@6c48a",
+    "url": "db://assets/resources/BoxClose_1.png@6c48a",
     "value": {
       "depends": [
         "0b2bcf06-2c66-4501-809f-ff89b2a0130b"
       ]
     }
+  },
+  "ed299580-6e97-4c69-9ff9-997e1e5aae14": {
+    "url": "db://assets/Scripts/Prefab",
+    "value": {}
+  },
+  "0b2bcf06-2c66-4501-809f-ff89b2a0130b@f9941": {
+    "url": "db://assets/resources/BoxClose_1.png@f9941",
+    "value": {
+      "depends": [
+        "0b2bcf06-2c66-4501-809f-ff89b2a0130b@6c48a"
+      ]
+    }
+  },
+  "d29cfa10-6f43-4c62-97a0-2d0bdd4b0b4d@f9941": {
+    "url": "db://assets/resources/BoxClose_2.png@f9941",
+    "value": {
+      "depends": [
+        "d29cfa10-6f43-4c62-97a0-2d0bdd4b0b4d@6c48a"
+      ]
+    }
+  },
+  "44bd2cbf-bb70-4a4e-8b18-df34ffd35633@f9941": {
+    "url": "db://assets/resources/BoxClose_3.png@f9941",
+    "value": {
+      "depends": [
+        "44bd2cbf-bb70-4a4e-8b18-df34ffd35633@6c48a"
+      ]
+    }
+  },
+  "895facd6-32d6-4091-8a06-dbae80ad3b12@f9941": {
+    "url": "db://assets/resources/BoxOpen_1.png@f9941",
+    "value": {
+      "depends": [
+        "895facd6-32d6-4091-8a06-dbae80ad3b12@6c48a"
+      ]
+    }
+  },
+  "a488a9d4-0e8c-4732-9d93-d6a0f7490f87@f9941": {
+    "url": "db://assets/resources/BoxOpen_2.png@f9941",
+    "value": {
+      "depends": [
+        "a488a9d4-0e8c-4732-9d93-d6a0f7490f87@6c48a"
+      ]
+    }
+  },
+  "a9188384-ff8d-4a35-8a24-3715ea28d994@f9941": {
+    "url": "db://assets/resources/BoxOpen_3.png@f9941",
+    "value": {
+      "depends": [
+        "a9188384-ff8d-4a35-8a24-3715ea28d994@6c48a"
+      ]
+    }
+  },
+  "175ab96c-21d9-458d-b871-9e0ca6ee4529": {
+    "url": "db://assets/Scripts/Prefab/CountDownLabelPrefab.ts",
+    "value": {}
   }
 }

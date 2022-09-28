@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 11265.73040008545,
+      "mTimestamp": 17854.47570002079,
       "chunkId": "ca4374a3008ca85000d465787e739a302e4e4ac6",
       "imports": [
         {
@@ -535,11 +535,11 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 12070.734700083733,
-      "chunkId": "48925ed89f58b0eff72f0ddf69b47c4b5e8f623a",
+      "mTimestamp": 6309579.3710000515,
+      "chunkId": "6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3",
       "imports": [
         {
-          "value": "file:///C:/Users/admin/NewProject_18/assets/Scripts/test.ts",
+          "value": "file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts",
           "resolved": "__unresolved_0",
           "loc": {
             "start": {
@@ -548,7 +548,21 @@
             },
             "end": {
               "line": 5,
-              "column": 96
+              "column": 122
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 138
+            },
+            "end": {
+              "line": 5,
+              "column": 230
             }
           }
         }
@@ -558,7 +572,14 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/admin/NewProject_18/assets/Scripts/test.ts"
+            "url": "file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts"
           },
           "messages": []
         }
@@ -20472,6 +20493,318 @@
       "erroneous": true,
       "mTimestamp": 1664354156067.9333,
       "chunkId": "09c34998499a6d390f44caba0c5e5a417dfa265b"
+    },
+    "file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/test.ts": {
+      "mTimestamp": {
+        "mtime": 1664381597201.466,
+        "uuid": "b6961599-b5e2-4db7-872e-f9f172e7d8d9"
+      },
+      "chunkId": "1ffe0bf7d9f5f289b23ce9a872613ce9a0a3aeba",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/BoxPrefab.ts": {
+      "mTimestamp": {
+        "mtime": 1664381597201.466,
+        "uuid": "b6961599-b5e2-4db7-872e-f9f172e7d8d9"
+      },
+      "chunkId": "78f174d7642671c1c8bd39b6e2f6c87a1fda346f",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxPrefab.ts": {
+      "mTimestamp": {
+        "mtime": 1664381597201.466,
+        "uuid": "b6961599-b5e2-4db7-872e-f9f172e7d8d9"
+      },
+      "chunkId": "8d19cb6c333549c97f99a079b4e10bc98db769f0",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts": {
+      "mTimestamp": {
+        "mtime": 1664383414262.2214,
+        "uuid": "b6961599-b5e2-4db7-872e-f9f172e7d8d9"
+      },
+      "chunkId": "177d4b67e0979dfa76a4c65756401e528e0d788e",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 103
+            },
+            "end": {
+              "line": 1,
+              "column": 107
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab-001.ts": {
+      "mTimestamp": {
+        "mtime": 1664383414262.2214,
+        "uuid": "175ab96c-21d9-458d-b871-9e0ca6ee4529"
+      },
+      "chunkId": "183ec7f24edfd9bf4c3a515cf482164adb416cb6",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 103
+            },
+            "end": {
+              "line": 1,
+              "column": 107
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts": {
+      "mTimestamp": {
+        "mtime": 1664387605482.3406,
+        "uuid": "175ab96c-21d9-458d-b871-9e0ca6ee4529"
+      },
+      "chunkId": "effcd00459e4d20760e9ecb05a8fd71cc741eb42",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 110
+            },
+            "end": {
+              "line": 1,
+              "column": 114
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
     }
   }
 }

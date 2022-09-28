@@ -1,11 +1,11 @@
-debug: Wed, 28 Sep 2022 11:28:15 GMT
-debug: Project: C:\Users\admin\NewProject_18
+debug: Wed, 28 Sep 2022 16:14:10 GMT
+debug: Project: C:\Users\YzY\Documents\chenille-main
 debug: Targets: editor,preview
 debug: Incremental file seems great.
 debug: Engine path: C:\CocosDashboard_1.2.2\resources\.editors\Creator\3.6.0\resources\resources\3d\engine
 debug: Initializing target [Editor]
 debug: Loading cache
-debug: Loading cache costs 15.502599954605103ms.
+debug: Loading cache costs 10.39270007610321ms.
 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,custom-pipeline
 debug: Our import map(foo:/bar): {
   "imports": {
@@ -14,7 +14,7 @@ debug: Our import map(foo:/bar): {
 }
 debug: Initializing target [Preview]
 debug: Loading cache
-debug: Loading cache costs 17.16349995136261ms.
+debug: Loading cache costs 10.35699999332428ms.
 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
@@ -28,30 +28,30 @@ debug: Reset databases. Enumerated domains: [
   },
   {
     "root": "db://assets/",
-    "physical": "C:\\Users\\admin\\NewProject_18\\assets"
+    "physical": "C:\\Users\\YzY\\Documents\\chenille-main\\assets"
   }
 ]
 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
     "db://internal/": "file:///C:/CocosDashboard_1.2.2/resources/.editors/Creator/3.6.0/resources/resources/3d/engine/editor/assets/",
-    "db://assets/": "file:///C:/Users/admin/NewProject_18/assets/"
+    "db://assets/": "file:///C:/Users/YzY/Documents/chenille-main/assets/"
   }
 }
 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
     "db://internal/": "file:///C:/CocosDashboard_1.2.2/resources/.editors/Creator/3.6.0/resources/resources/3d/engine/editor/assets/",
-    "db://assets/": "file:///C:/Users/admin/NewProject_18/assets/"
+    "db://assets/": "file:///C:/Users/YzY/Documents/chenille-main/assets/"
   }
 }
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 5.251799941062927ms.
+debug: Fetch asset-db cost: 3.961199998855591ms.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:17 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
@@ -78,15 +78,16 @@ debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as extern
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:17 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/Users/admin/NewProject_18/assets/Scripts/test.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/admin/NewProject_18/assets/Scripts/test.ts.
-debug: Resolve cc from file:///C:/Users/admin/NewProject_18/assets/Scripts/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///C:/Users/admin/NewProject_18/assets/Scripts/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///C:/Users/admin/NewProject_18/assets/Scripts/test.ts as cce:/internal/x/cc.
-debug: Target(editor) ends with cost 270.67980003356934ms.
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/test.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/test.ts.
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/test.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/test.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 233.10000002384186ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:17 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
@@ -114,25 +115,931 @@ debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external d
 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:18 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/Users/admin/NewProject_18/assets/Scripts/test.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/admin/NewProject_18/assets/Scripts/test.ts.
-debug: Resolve cc from file:///C:/Users/admin/NewProject_18/assets/Scripts/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///C:/Users/admin/NewProject_18/assets/Scripts/test.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///C:/Users/admin/NewProject_18/assets/Scripts/test.ts as cce:/internal/x/cc.
-debug: Target(preview) ends with cost 179.07179999351501ms.
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/test.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/test.ts.
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/test.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/test.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 258.19830000400543ms.
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 19.61710000038147ms.
+debug: Fetch asset-db cost: 20.20449995994568ms.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:17 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:21 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/Users/admin/NewProject_18/assets/Scripts/test.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/admin/NewProject_18/assets/Scripts/test.ts.
-debug: Target(editor) ends with cost 77.65330004692078ms.
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/test.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/test.ts.
+debug: Target(editor) ends with cost 46.15899991989136ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:18 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:21 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/Users/admin/NewProject_18/assets/Scripts/test.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/admin/NewProject_18/assets/Scripts/test.ts.
-debug: Target(preview) ends with cost 125.31900000572205ms.
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/test.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/test.ts.
+debug: Target(preview) ends with cost 60.97449994087219ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:21 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:01:26 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/BoxPrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/BoxPrefab.ts.
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/BoxPrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/BoxPrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/BoxPrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/BoxPrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 119.66139996051788ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:21 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:01:26 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/BoxPrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/BoxPrefab.ts.
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/BoxPrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/BoxPrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/BoxPrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/BoxPrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 130.13850009441376ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:01:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:01:35 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxPrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxPrefab.ts.
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxPrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxPrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxPrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxPrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 87.75469994544983ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:01:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:01:35 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxPrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxPrefab.ts.
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxPrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxPrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxPrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxPrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 205.16570007801056ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:01:35 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:01:41 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 93.1923999786377ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:01:35 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:01:41 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 85.50680005550385ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:01:41 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:03:06 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:13:17 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:16:55 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 188.974799990654ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:01:41 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:03:06 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:13:17 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:16:55 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 200.59800004959106ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:03:06 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:04:16 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:16:55 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:18:07 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 159.51779997348785ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:03:06 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:04:17 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:16:55 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:18:07 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 227.51250004768372ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:04:16 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:07:16 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:18:07 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:21:03 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 134.47169995307922ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:04:17 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:07:17 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:18:07 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:21:03 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 189.63440001010895ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:07:16 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:07:36 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:21:03 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:21:20 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 122.50769996643066ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:07:17 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:07:36 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:21:03 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:21:20 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 297.65260004997253ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:07:36 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:08:34 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:21:20 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:22:22 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 195.87090003490448ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:07:36 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:08:34 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:21:20 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:22:22 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 396.32039999961853ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:08:34 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:09:31 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:22:22 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:23:22 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 203.30229997634888ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:08:34 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:09:32 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:22:22 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:23:22 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 626.0763000249863ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:09:31 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:09:46 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:23:22 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:23:36 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 181.13530004024506ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:09:32 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:09:47 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:23:22 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:23:36 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 319.18239998817444ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:09:46 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:10:42 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:23:36 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:24:32 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 238.21670007705688ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:09:47 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:10:42 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:23:36 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:24:32 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 560.1374999284744ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:10:42 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:11:10 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:24:32 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:24:59 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 188.78780007362366ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:10:42 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:11:10 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:24:32 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:24:59 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 377.2971999645233ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:11:10 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:11:43 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:24:59 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:25:32 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 180.7858999967575ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:11:10 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:11:43 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:24:59 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:25:32 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 420.66269993782043ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:11:43 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:12:42 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:25:32 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:26:28 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 159.1108000278473ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:11:43 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:12:42 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:25:32 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:26:28 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 262.76980006694794ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:12:42 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:13:46 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:26:28 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:27:36 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 496.343199968338ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:12:42 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:13:46 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:26:28 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:27:36 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 659.5644999742508ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:13:46 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:14:11 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:27:36 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:28:02 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 145.6045000553131ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:13:46 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:14:11 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:27:36 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:28:02 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 150.25009989738464ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:14:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:15:04 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:28:02 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:28:54 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 144.0938000679016ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:14:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:15:04 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:28:02 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:28:54 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 406.87949991226196ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:15:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:16:48 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:28:54 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:30:39 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 137.90209996700287ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:15:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:16:49 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:28:54 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:30:39 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 171.51370000839233ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:16:48 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:16:54 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:30:39 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:30:43 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 1418.8356000185013ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:16:49 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:16:55 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:30:39 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:30:43 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 1202.2074999809265ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:16:54 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:17:15 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:30:43 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:31:04 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 428.4881999492645ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:16:55 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:17:15 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:30:43 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:31:04 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 278.7159000635147ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:17:15 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:17:37 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:31:04 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:31:27 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 125.15980005264282ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:17:15 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:17:37 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:31:04 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:31:27 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 372.62919998168945ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:17:37 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:18:26 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:31:27 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:32:17 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 2209.506399989128ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:17:37 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:18:28 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:31:27 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:32:21 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 1526.804200053215ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:18:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:18:31 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:32:17 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:32:21 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 477.6504000425339ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:18:28 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:18:32 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Target(preview) ends with cost 538.6210000514984ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:18:31 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:20:48 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:32:21 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:34:38 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 334.4366000890732ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:18:32 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:20:48 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:32:21 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:34:38 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 329.9478999376297ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:20:48 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:21:05 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:34:38 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:34:55 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 2946.0878999233246ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:20:48 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:21:08 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:34:38 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:34:55 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 3431.903799891472ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:21:05 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:21:34 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:34:55 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:35:24 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 185.98950004577637ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:21:08 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:21:35 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:34:55 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:35:24 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 355.0228999853134ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:21:34 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:22:27 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:35:24 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:36:18 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 123.83660006523132ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:21:35 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:22:27 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:35:24 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:36:18 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 292.0292000770569ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:22:27 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:23:00 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:36:18 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:36:51 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 179.8792999982834ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:22:27 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:23:00 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:36:18 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:36:51 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 204.2635999917984ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:23:00 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:24:01 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:36:51 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:37:52 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 128.11280000209808ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:23:00 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:24:01 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:36:51 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:37:52 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 243.71979999542236ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:24:01 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:24:13 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:37:52 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:38:03 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 1922.2189999818802ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:24:01 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:24:15 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:37:52 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:38:03 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 512.1257998943329ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:24:13 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:24:44 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:38:03 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:38:35 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 133.18599998950958ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:24:15 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:24:44 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:38:03 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:38:35 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 247.97239995002747ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:24:44 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:25:10 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:38:35 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:39:01 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 168.359099984169ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:24:44 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:25:11 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:38:35 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:39:01 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 117.15330004692078ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:25:10 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:28:46 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:39:01 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:42:34 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 151.32709991931915ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:25:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:28:46 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:39:01 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:42:34 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 376.7864999771118ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:28:46 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:29:43 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:42:34 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:43:34 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 231.52609992027283ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:28:46 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:29:43 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts. Last mtime: Thu Sep 29 2022 00:42:34 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9, Current mtime: Thu Sep 29 2022 00:43:34 GMT+0800 (中国标准时间)@b6961599-b5e2-4db7-872e-f9f172e7d8d9
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 511.4395999908447ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:29:43 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:17:45 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab-001.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab-001.ts.
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab-001.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab-001.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab-001.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab-001.ts as cce:/internal/x/cc.
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Target(editor) ends with cost 450.7933999300003ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:29:43 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:17:46 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab-001.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab-001.ts.
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab-001.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab-001.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab-001.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab-001.ts as cce:/internal/x/cc.
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Target(preview) ends with cost 1160.2805000543594ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:17:45 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:22:01 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts.
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 417.2094999551773ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:17:46 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:22:01 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts.
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 461.4872000217438ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:22:01 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:22:56 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts. Last mtime: Thu Sep 29 2022 00:43:34 GMT+0800 (中国标准时间)@175ab96c-21d9-458d-b871-9e0ca6ee4529, Current mtime: Thu Sep 29 2022 01:36:46 GMT+0800 (中国标准时间)@175ab96c-21d9-458d-b871-9e0ca6ee4529
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 387.4124000072479ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:22:01 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:22:56 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts. Last mtime: Thu Sep 29 2022 00:43:34 GMT+0800 (中国标准时间)@175ab96c-21d9-458d-b871-9e0ca6ee4529, Current mtime: Thu Sep 29 2022 01:36:46 GMT+0800 (中国标准时间)@175ab96c-21d9-458d-b871-9e0ca6ee4529
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 651.6356999874115ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:22:56 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:45:09 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts. Last mtime: Thu Sep 29 2022 01:36:46 GMT+0800 (中国标准时间)@175ab96c-21d9-458d-b871-9e0ca6ee4529, Current mtime: Thu Sep 29 2022 01:53:25 GMT+0800 (中国标准时间)@175ab96c-21d9-458d-b871-9e0ca6ee4529
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 599.8744999170303ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:22:56 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:45:10 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts.
+debug: Resolve file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts.
+debug: Detected change: file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts. Last mtime: Thu Sep 29 2022 01:36:46 GMT+0800 (中国标准时间)@175ab96c-21d9-458d-b871-9e0ca6ee4529, Current mtime: Thu Sep 29 2022 01:53:25 GMT+0800 (中国标准时间)@175ab96c-21d9-458d-b871-9e0ca6ee4529
+debug: Inspect file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 668.4696999788284ms.

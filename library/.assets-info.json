@@ -93,7 +93,7 @@
   "C:\\Users\\admin\\NewProject_18\\assets\\Prefab\\CellRes": {
     "time": 1664366403036.1438,
     "uuid": "6709ab5f-7a9a-45bb-92f8-d5e74447bc57",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\admin\\NewProject_18\\assets\\Resource.meta": {
     "time": 1664366630219.5947
@@ -149,6 +149,142 @@
   "C:\\Users\\admin\\NewProject_18\\assets\\Resource\\BoxOpen_3.png": {
     "time": 1664342272493.2292,
     "uuid": "a9188384-ff8d-4a35-8a24-3715ea28d994",
+    "missing": false
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\Prefab": {
+    "time": 1664381597187.5032,
+    "uuid": "bb319a22-619a-4b36-bf26-26fa0dd2b018",
+    "missing": false
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\Scripts": {
+    "time": 1664381727827.5925,
+    "uuid": "ed512be5-ae01-471c-991b-494b84609653",
+    "missing": false
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\Prefab\\MainLayer": {
+    "time": 1664381597190.495,
+    "uuid": "1e1eb671-b82f-4214-a811-b70a02a3e1b1",
+    "missing": false
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\Prefab.meta": {
+    "time": 1664381597185.5088
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\Scripts.meta": {
+    "time": 1664381597198.4736
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\Prefab\\MainLayer.meta": {
+    "time": 1664381597186.5059
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\GameScene.scene": {
+    "time": 1664383211569.5415,
+    "uuid": "f5201207-7c5d-46b5-ba3a-809b8d374a62",
+    "missing": false
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\Prefab\\MainLayer\\BoxMainLayer.prefab": {
+    "time": 1664381597187.5032,
+    "uuid": "8fa4efaa-6bf2-4f80-b465-9d3a4fe4d9b4",
+    "missing": false
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\Prefab\\MainLayer\\FightMainLayer.prefab": {
+    "time": 1664381597189.4978,
+    "uuid": "c5c9d509-258f-4376-810a-193abe95b078",
+    "missing": false
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\Prefab\\MainLayer\\InfoMainLayer.prefab": {
+    "time": 1664381597190.495,
+    "uuid": "849878af-1d00-4b1e-a3e8-d61658895622",
+    "missing": false
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\GameScene.scene.meta": {
+    "time": 1664381597184.5112
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\Prefab\\MainLayer\\BoxMainLayer.prefab.meta": {
+    "time": 1664381597188.5005
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\Prefab\\MainLayer\\FightMainLayer.prefab.meta": {
+    "time": 1664381597189.4978
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\Prefab\\MainLayer\\InfoMainLayer.prefab.meta": {
+    "time": 1664381597190.495
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\Scripts\\Prefab.meta": {
+    "time": 1664381725421.8599
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\Scripts\\Prefab": {
+    "time": 1664386553817.9321,
+    "uuid": "ed299580-6e97-4c69-9ff9-997e1e5aae14",
+    "missing": false
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\Scripts\\Prefab\\BoxSpritePrefab.ts.meta": {
+    "time": 1664381597202.4631
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\Scripts\\Prefab\\BoxSpritePrefab.ts": {
+    "time": 1664383414262.2214,
+    "uuid": "b6961599-b5e2-4db7-872e-f9f172e7d8d9",
+    "missing": false
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\resources.meta": {
+    "time": 1664382325800.2563
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\resources": {
+    "time": 1664382493387.352,
+    "uuid": "fbd168fc-2b81-4090-a2bc-c4394139239d",
+    "missing": false
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\resources\\BoxOpen_1.png.meta": {
+    "time": 1664382196877.2761
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\resources\\BoxOpen_1.png": {
+    "time": 1664381597195.4817,
+    "uuid": "895facd6-32d6-4091-8a06-dbae80ad3b12",
+    "missing": false
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\resources\\BoxClose_1.png.meta": {
+    "time": 1664382191912.8154
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\resources\\BoxClose_1.png": {
+    "time": 1664381597192.4897,
+    "uuid": "0b2bcf06-2c66-4501-809f-ff89b2a0130b",
+    "missing": false
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\resources\\BoxOpen_2.png.meta": {
+    "time": 1664382196880.271
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\resources\\BoxOpen_2.png": {
+    "time": 1664381597196.4795,
+    "uuid": "a488a9d4-0e8c-4732-9d93-d6a0f7490f87",
+    "missing": false
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\resources\\BoxOpen_3.png.meta": {
+    "time": 1664382196884.2595
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\resources\\BoxOpen_3.png": {
+    "time": 1664381597197.4766,
+    "uuid": "a9188384-ff8d-4a35-8a24-3715ea28d994",
+    "missing": false
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\resources\\BoxClose_2.png.meta": {
+    "time": 1664382490329.895
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\resources\\BoxClose_2.png": {
+    "time": 1664381597193.4873,
+    "uuid": "d29cfa10-6f43-4c62-97a0-2d0bdd4b0b4d",
+    "missing": false
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\resources\\BoxClose_3.png.meta": {
+    "time": 1664382493474.637
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\resources\\BoxClose_3.png": {
+    "time": 1664381597194.4846,
+    "uuid": "44bd2cbf-bb70-4a4e-8b18-df34ffd35633",
+    "missing": false
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\Scripts\\Prefab\\CountDownLabelPrefab.ts.meta": {
+    "time": 1664386298097.4963
+  },
+  "C:\\Users\\YzY\\Documents\\chenille-main\\assets\\Scripts\\Prefab\\CountDownLabelPrefab.ts": {
+    "time": 1664387605482.3406,
+    "uuid": "175ab96c-21d9-458d-b871-9e0ca6ee4529",
     "missing": false
   }
 }

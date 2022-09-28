@@ -1,8 +1,9 @@
 {
   "imports": {
     "cce:/internal/x/cc": "./chunks/d0/d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53.js",
-    "cce:/internal/x/prerequisite-imports": "./chunks/6b/6b8f85b7feaee65395ce6b5e8080983e7f56d534.js",
-    "file:///C:/Users/admin/NewProject_18/assets/Scripts/test.ts": "./chunks/8f/8f5e956c35b922a59f82e20a8ce8f12a3c5c156e.js"
+    "cce:/internal/x/prerequisite-imports": "./chunks/6c/6cea9118b313aa76b67e6fd6577a4a82aae4c9d4.js",
+    "file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/BoxSpritePrefab.ts": "./chunks/4a/4a5e701aca9285d41bc51393a46cd21618d7f220.js",
+    "file:///C:/Users/YzY/Documents/chenille-main/assets/Scripts/Prefab/CountDownLabelPrefab.ts": "./chunks/54/54868b84f88a5082b1d037c0093dab1797c20382.js"
   },
   "scopes": {
     "./chunks/d0/d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53.js": {
@@ -33,10 +34,14 @@
       "__unresolved_8": "cce:/internal/x/cc-fu/intersection-2d",
       "__unresolved_9": "cce:/internal/x/cc-fu/particle"
     },
-    "./chunks/6b/6b8f85b7feaee65395ce6b5e8080983e7f56d534.js": {
-      "__unresolved_0": "./chunks/8f/8f5e956c35b922a59f82e20a8ce8f12a3c5c156e.js"
+    "./chunks/6c/6cea9118b313aa76b67e6fd6577a4a82aae4c9d4.js": {
+      "__unresolved_0": "./chunks/4a/4a5e701aca9285d41bc51393a46cd21618d7f220.js",
+      "__unresolved_1": "./chunks/54/54868b84f88a5082b1d037c0093dab1797c20382.js"
     },
-    "./chunks/8f/8f5e956c35b922a59f82e20a8ce8f12a3c5c156e.js": {
+    "./chunks/54/54868b84f88a5082b1d037c0093dab1797c20382.js": {
+      "cc": "./chunks/d0/d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53.js"
+    },
+    "./chunks/4a/4a5e701aca9285d41bc51393a46cd21618d7f220.js": {
       "cc": "./chunks/d0/d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53.js"
     }
   }
