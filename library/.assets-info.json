@@ -1,0 +1,154 @@
+{
+  "C:\\Users\\admin\\NewProject_18\\assets\\Scripts.meta": {
+    "time": 1664346323292.2905
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Scripts": {
+    "time": 1664351142147.5857,
+    "uuid": "ed512be5-ae01-471c-991b-494b84609653",
+    "missing": false
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Scripts\\test.ts.meta": {
+    "time": 1664346332880.3884
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Scripts\\test.ts": {
+    "time": 1664354221522.9944,
+    "uuid": "b6961599-b5e2-4db7-872e-f9f172e7d8d9",
+    "missing": false
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Scripts\\External.meta": {
+    "time": 1664351142163.5435
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Scripts\\External": {
+    "time": 1664357851242.2786,
+    "uuid": "51148950-dc35-4853-96bd-ef9b0f709b8c",
+    "missing": false
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\scene.scene": {
+    "time": 1664351994762.3176,
+    "uuid": "d6b0969c-1e99-4c0b-a0df-fa7e91df4102",
+    "missing": false
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\scene.scene.meta": {
+    "time": 1664351994830.1367
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Scripts\\External\\BTree.d.ts.meta": {
+    "time": 1664354159600.52
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Scripts\\External\\BTree.d.ts": {
+    "time": 1664354156067.9333,
+    "uuid": "cbfd8ae5-5e7e-44e6-a029-d9886a83179a",
+    "missing": false
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\GameScene.scene.meta": {
+    "time": 1664364110604.6804
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\GameScene.scene": {
+    "time": 1664366773483.3926,
+    "uuid": "f5201207-7c5d-46b5-ba3a-809b8d374a62",
+    "missing": false
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Prefab.meta": {
+    "time": 1664364819133.7048
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Prefab": {
+    "time": 1664366403038.1355,
+    "uuid": "bb319a22-619a-4b36-bf26-26fa0dd2b018",
+    "missing": false
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Prefab\\MainLayer.meta": {
+    "time": 1664364851997.4685
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Prefab\\MainLayer": {
+    "time": 1664364895670.4475,
+    "uuid": "1e1eb671-b82f-4214-a811-b70a02a3e1b1",
+    "missing": false
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Prefab\\MainLayer\\BoxMainLayer.prefab.meta": {
+    "time": 1664364829615.9268
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Prefab\\MainLayer\\BoxMainLayer.prefab": {
+    "time": 1664366373071.7517,
+    "uuid": "8fa4efaa-6bf2-4f80-b465-9d3a4fe4d9b4",
+    "missing": false
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Prefab\\MainLayer\\FightMainLayer.prefab.meta": {
+    "time": 1664364874277.417
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Prefab\\MainLayer\\FightMainLayer.prefab": {
+    "time": 1664364874272.435,
+    "uuid": "c5c9d509-258f-4376-810a-193abe95b078",
+    "missing": false
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Prefab\\MainLayer\\InfoMainLayer.prefab.meta": {
+    "time": 1664364895683.417
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Prefab\\MainLayer\\InfoMainLayer.prefab": {
+    "time": 1664364895679.4229,
+    "uuid": "849878af-1d00-4b1e-a3e8-d61658895622",
+    "missing": false
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Prefab\\CellRes.meta": {
+    "time": 1664366403041.1272
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Prefab\\CellRes": {
+    "time": 1664366403036.1438,
+    "uuid": "6709ab5f-7a9a-45bb-92f8-d5e74447bc57",
+    "missing": false
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Resource.meta": {
+    "time": 1664366630219.5947
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Resource": {
+    "time": 1664366772974.6836,
+    "uuid": "fbd168fc-2b81-4090-a2bc-c4394139239d",
+    "missing": false
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Resource\\BoxClose_1.png.meta": {
+    "time": 1664366750528.7947
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Resource\\BoxClose_1.png": {
+    "time": 1664342272489.2397,
+    "uuid": "0b2bcf06-2c66-4501-809f-ff89b2a0130b",
+    "missing": false
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Resource\\BoxClose_2.png.meta": {
+    "time": 1664366756669.5798
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Resource\\BoxClose_2.png": {
+    "time": 1664342272490.237,
+    "uuid": "d29cfa10-6f43-4c62-97a0-2d0bdd4b0b4d",
+    "missing": false
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Resource\\BoxClose_3.png.meta": {
+    "time": 1664366759547.152
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Resource\\BoxClose_3.png": {
+    "time": 1664342272491.235,
+    "uuid": "44bd2cbf-bb70-4a4e-8b18-df34ffd35633",
+    "missing": false
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Resource\\BoxOpen_1.png.meta": {
+    "time": 1664366765743.5415
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Resource\\BoxOpen_1.png": {
+    "time": 1664342272490.237,
+    "uuid": "895facd6-32d6-4091-8a06-dbae80ad3b12",
+    "missing": false
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Resource\\BoxOpen_2.png.meta": {
+    "time": 1664366769490.6133
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Resource\\BoxOpen_2.png": {
+    "time": 1664342272491.235,
+    "uuid": "a488a9d4-0e8c-4732-9d93-d6a0f7490f87",
+    "missing": false
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Resource\\BoxOpen_3.png.meta": {
+    "time": 1664366773002.61
+  },
+  "C:\\Users\\admin\\NewProject_18\\assets\\Resource\\BoxOpen_3.png": {
+    "time": 1664342272493.2292,
+    "uuid": "a9188384-ff8d-4a35-8a24-3715ea28d994",
+    "missing": false
+  }
+}
