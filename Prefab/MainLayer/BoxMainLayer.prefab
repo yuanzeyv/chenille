@@ -126,7 +126,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 250,
+      "width": 166.67,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -161,7 +161,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "淘淘商品柜",
+    "_string": "TTSPG",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 50,
@@ -227,7 +227,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 0,
+      "y": 257.947,
       "z": 0
     },
     "_lrot": {

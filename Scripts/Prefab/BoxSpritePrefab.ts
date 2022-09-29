@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Sprite, CCObject, SpriteFrame, find, resources, Texture2D } from 'cc';
+import { _decorator, Component, Node, Sprite,PageView, CCObject, SpriteFrame, find, resources, Texture2D } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('BoxSpritePrefab')
@@ -49,11 +49,12 @@ export class BoxSpritePrefab extends Component {
         this.CloseImage = this.SpriteCloseArr[this.BoxType];
         this.FrontBoxType = this.BoxType;
     }
-    ChangeStatus(){ 
+    ChangeStatus(){  
         this.ImageSprite.spriteFrame = this.BoxStatus ? this.OpenImage : this.CloseImage;
         this.FrontBoxStatus = this.BoxStatus;
     }
     update(deltaTime: number) {
+        
         this.IsChangeType();
         this.IsChangeStatus();
     }
